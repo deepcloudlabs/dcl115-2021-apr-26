@@ -10,12 +10,11 @@ static int x = 0; // global data -> shared memory
 mutex m;
 
 void fun() {
-    m.lock(); // mutual exclusion -> serialization
+    lock_guard<mutex> lg(m); // mutual exclusion -> serialization
     for (int i = 0; i < 100'000; i++) {
         // race condition -> critical section -> mutual exclusion -> locking
         x++; // Write -> increment -> it is NOT atomic
     }
-    m.unlock();
 }
 
 int main() {
