@@ -85,6 +85,12 @@
 		<Unit filename="C:/DEVEL/stage/tmp/dcl115-2021.apr.26/module09/main.cpp">
 			<Option target="module09"/>
 		</Unit>
+		<Unit filename="C:/DEVEL/stage/tmp/dcl115-2021.apr.26/module09/threadsafe_queue.cpp">
+			<Option target="module09"/>
+		</Unit>
+		<Unit filename="C:/DEVEL/stage/tmp/dcl115-2021.apr.26/module09/threadsafe_queue.h">
+			<Option target="module09"/>
+		</Unit>
 		<Unit filename="C:/DEVEL/stage/tmp/dcl115-2021.apr.26/module09/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>

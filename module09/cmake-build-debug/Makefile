@@ -168,6 +168,33 @@ main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\module09.dir\build.make CMakeFiles/module09.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+threadsafe_queue.obj: threadsafe_queue.cpp.obj
+
+.PHONY : threadsafe_queue.obj
+
+# target to build an object file
+threadsafe_queue.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\module09.dir\build.make CMakeFiles/module09.dir/threadsafe_queue.cpp.obj
+.PHONY : threadsafe_queue.cpp.obj
+
+threadsafe_queue.i: threadsafe_queue.cpp.i
+
+.PHONY : threadsafe_queue.i
+
+# target to preprocess a source file
+threadsafe_queue.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\module09.dir\build.make CMakeFiles/module09.dir/threadsafe_queue.cpp.i
+.PHONY : threadsafe_queue.cpp.i
+
+threadsafe_queue.s: threadsafe_queue.cpp.s
+
+.PHONY : threadsafe_queue.s
+
+# target to generate assembly for a file
+threadsafe_queue.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\module09.dir\build.make CMakeFiles/module09.dir/threadsafe_queue.cpp.s
+.PHONY : threadsafe_queue.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -180,6 +207,9 @@ help:
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
+	@echo ... threadsafe_queue.obj
+	@echo ... threadsafe_queue.i
+	@echo ... threadsafe_queue.s
 .PHONY : help
 
 

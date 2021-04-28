@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/module09.dir/main.cpp.obj"
+  "CMakeFiles/module09.dir/threadsafe_queue.cpp.obj"
   "libmodule09.dll.a"
   "module09.exe"
   "module09.exe.manifest"

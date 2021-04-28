@@ -5,6 +5,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
   "C:/DEVEL/stage/tmp/dcl115-2021.apr.26/module09/main.cpp" "C:/DEVEL/stage/tmp/dcl115-2021.apr.26/module09/cmake-build-debug/CMakeFiles/module09.dir/main.cpp.obj"
+  "C:/DEVEL/stage/tmp/dcl115-2021.apr.26/module09/threadsafe_queue.cpp" "C:/DEVEL/stage/tmp/dcl115-2021.apr.26/module09/cmake-build-debug/CMakeFiles/module09.dir/threadsafe_queue.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

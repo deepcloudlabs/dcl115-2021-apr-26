@@ -1,0 +1,40 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/DEVEL/stage/tmp/dcl115-2021.apr.26/module09/main.cpp
+iostream
+-
+functional
+-
+thread
+-
+atomic
+-
+map
+-
+threadsafe_queue.cpp
+C:/DEVEL/stage/tmp/dcl115-2021.apr.26/module09/threadsafe_queue.cpp
+
+C:/DEVEL/stage/tmp/dcl115-2021.apr.26/module09/threadsafe_queue.cpp
+threadsafe_queue.h
+C:/DEVEL/stage/tmp/dcl115-2021.apr.26/module09/threadsafe_queue.h
+mutex
+-
+memory
+-
+
+C:/DEVEL/stage/tmp/dcl115-2021.apr.26/module09/threadsafe_queue.h
+memory
+-
+queue
+-
+mutex
+-
+condition_variable
+-
+
