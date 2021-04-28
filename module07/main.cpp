@@ -1,7 +1,7 @@
+#include <atomic>
+#include <thread>
 #include <iostream>
 #include <memory>
-#include <thread>
-#include <atomic>
 #include "domain.h"
 
 using namespace std;
@@ -11,20 +11,21 @@ class threadsafe_stack {
     struct node {
         shared_ptr<T> data;
         node *next;
-        node(T const &_data) : data(make_shared<T>(_data)){}
+        node(T const& data_):data(make_shared<T>(data_)){}
     };
     atomic<node*> head;
 public:
     threadsafe_stack() {}
 
     void push(T const& data){ // write
-        node* const new_node = new node(data);
-        new_node->next = head.load();
-        while (!head.compare_exchange_weak(new_node->next, new_node)); // spinning
+        node* const new_node=new node(data);
+        new_node->next=head.load();
+        while(!head.compare_exchange_weak(new_node->next,new_node));
     }
     shared_ptr<T> pop(){ // read
-        node* old_head = head.load();
-        while (old_head && head.compare_exchange_weak(old_head, old_head->next));
+        node* old_head=head.load();
+        while(old_head &&
+              !head.compare_exchange_weak(old_head,old_head->next));
         return old_head ? old_head->data : shared_ptr<T>();
     }
 
@@ -79,7 +80,7 @@ int main() {
     t2.join();
     t3.join();
     while (!tss.empty()){
-        cout << tss.pop() << endl;
+        cout << *tss.pop() << endl;
     }
     return 0;
 }
