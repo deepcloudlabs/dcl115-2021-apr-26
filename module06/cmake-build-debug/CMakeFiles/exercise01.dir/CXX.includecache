@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/DEVEL/stage/tmp/dcl115-2021.apr.26/module06/domain.h
+string
+-
+ostream
+-
+
+C:/DEVEL/stage/tmp/dcl115-2021.apr.26/module06/exercise01.cpp
+thread
+-
+iostream
+-
+queue
+-
+mutex
+-
+condition_variable
+-
+memory
+-
+domain.h
+C:/DEVEL/stage/tmp/dcl115-2021.apr.26/module06/domain.h
+

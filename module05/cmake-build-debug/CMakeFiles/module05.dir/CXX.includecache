@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/DEVEL/stage/tmp/dcl115-2021.apr.26/module05/main.cpp
+iostream
+-
+atomic
+-
+vector
+-
+random
+-
+chrono
+-
+mutex
+-
+thread
+-
+

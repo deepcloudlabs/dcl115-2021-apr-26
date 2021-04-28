@@ -1,0 +1,4 @@
+C:/DEVEL/stage/tmp/dcl115-2021.apr.26/module06/cmake-build-debug/CMakeFiles/module06.dir
+C:/DEVEL/stage/tmp/dcl115-2021.apr.26/module06/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/DEVEL/stage/tmp/dcl115-2021.apr.26/module06/cmake-build-debug/CMakeFiles/exercise01.dir
+C:/DEVEL/stage/tmp/dcl115-2021.apr.26/module06/cmake-build-debug/CMakeFiles/rebuild_cache.dir

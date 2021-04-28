@@ -1,0 +1,3 @@
+D:\opt\jetbrains-toolbox\apps\CLion\ch-0\211.6693.114\bin\cmake\win\bin\cmake.exe -E rm -f CMakeFiles\module08.dir/objects.a
+C:\opt\mingw64\bin\ar.exe cr CMakeFiles\module08.dir/objects.a @CMakeFiles\module08.dir\objects1.rsp
+C:\opt\mingw64\bin\g++.exe -g -Wl,--whole-archive CMakeFiles\module08.dir/objects.a -Wl,--no-whole-archive -o module08.exe -Wl,--out-implib,libmodule08.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\module08.dir\linklibs.rsp

@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/DEVEL/stage/tmp/dcl115-2021.apr.26/module08/main.cpp
+iostream
+-
+algorithm
+-
+numeric
+-
+future
+-
+
